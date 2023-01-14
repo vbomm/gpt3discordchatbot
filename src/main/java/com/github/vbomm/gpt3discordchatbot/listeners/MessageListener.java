@@ -36,7 +36,7 @@ public class MessageListener extends ListenerAdapter {
                     .maxTokens(128)
                     .prompt(message)
                     .echo(false)
-                    .user(hashCreator.createMD5Hash((author.getName())))
+                    .user(hashCreator.createMD5Hash(author.getName()))
                     .build();
         } catch (NoSuchAlgorithmException e) {
             throw new RuntimeException(e);
