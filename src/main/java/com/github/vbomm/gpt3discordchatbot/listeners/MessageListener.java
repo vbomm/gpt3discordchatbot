@@ -33,7 +33,7 @@ public class MessageListener extends ListenerAdapter {
         try {
             completionRequest = CompletionRequest.builder()
                     .model("text-davinci-003")
-                    .maxTokens(128)
+                    .maxTokens(256)
                     .prompt(message)
                     .echo(false)
                     .user(hashCreator.createMD5Hash(author.getName()))
