@@ -10,4 +10,4 @@ Since it isn't possible to get sources for the gathered answers, the quality sho
 
 <img src="readme/false.png" alt="bot gives an incorrect answer">
 
-API Key has to be provided in a file called ".env". Check out "env.example".
+OpenAI API Key has to be provided in a file called ".env". Check out "env.example".
